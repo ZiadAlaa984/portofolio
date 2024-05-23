@@ -1,0 +1,16 @@
+:root {
+    --main-color: #1abc9c;
+    --second-color: #2c3e50;
+}
+.active{
+    background-color: #1abc9c;
+}
+.home,.About{
+    min-height: calc(-85px + 100vh);
+}
+.icon_span {
+    border: 1px white solid;
+    border-radius: 50%;
+
+    padding: 10px;
+}

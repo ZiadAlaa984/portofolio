@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.row{
+    @apply flex flex-wrap  gap-1 items-center justify-center
+}
+.contact{
+    min-height: calc(100vh - 85px);
+}
